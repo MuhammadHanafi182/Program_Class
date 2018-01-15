@@ -73,4 +73,11 @@ int main()
 	JenisMusang MusangD("Musang Rase", "Alam Liar", 
 	63, 3, "Serangga Kecil,Tikus,dll", "Belang Hitam Putih,Bintik Hitam Disisi Tubuh Hitam Corak Putih,Garis hitam di Punggung",
 	"Lebih Suka Memakan Jenis Serangga dan Tikus,Memiliki Warna Unik");
+	
+	MusangA.perolehInfo();
+    MusangB.perolehInfo();
+    MusangC.perolehInfo();
+    MusangD.perolehInfo();     
+    
+    return 0;
 }
