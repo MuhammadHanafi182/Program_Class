@@ -44,7 +44,17 @@ public:
     	cout << "|______________________________________BERDASARKAN PENELUSURAN GOOGLE___________________________________| " << endl;
     	cout << "|=======================================================================================================| " << endl;
     	
+    	cout << "Nama Musang 		    : " << namamusang << endl;
+        cout << "Habitat     		    : " << habitat << endl;
+        cout << "Panjang Tubuh Maksimal (Cm) : " << panjangtubuhmaks << endl;
+        cout << "Berat Maksimal (Kg) 	    : " << brtmaks << endl;
+        cout << "Makanan 		    : " << makanan << endl;
+        cout << "Warna		            : " << warna << endl;
+        cout << "Karakter		    : " << karakter << endl;
+    
+        cout << endl;
     };
+	};
 
 int main(){
 }
