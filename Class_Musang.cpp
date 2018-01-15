@@ -33,6 +33,9 @@ public:
         
      }
     
+    // untuk menampilkan
+
+    void perolehInfo (void)    
     
 int main(){
 }
