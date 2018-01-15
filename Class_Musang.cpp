@@ -56,5 +56,21 @@ public:
     };
 	};
 
-int main(){
+int main()
+{	
+	JenisMusang MusangA("Musang Pandan", "Alam Liar, Atap Rumah", 
+	95, 6, "Buah-Buahan,Kopi,Serangga Kecil,dll", "Tergantung Tempat Tinggal",
+	"Aktif dimalam hari,Pintar dan mudah diajak bermain");
+
+	JenisMusang MusangB("Musang Akar", "Alam Liar", 
+	60, 3, "Buah-Buahan,Kopi,dll", "Bulu Coklat,Kepala Abu-Abu,",
+	"Dapat melahirkan anak hingga 2 anak,Penciuman tajam");
+	
+	JenisMusang MusangC("Musang Bulan", "Alam Liar", 
+	75, 5, "Buah-Buahan,Kopi,Serangga Kecil,dll", "(2 Jenis) Orange Bercampur Coklat dan Hitam Gelap, Hitam Corak Putih",
+	"Penghasil Kopi Luwak");
+	
+	JenisMusang MusangD("Musang Rase", "Alam Liar", 
+	63, 3, "Serangga Kecil,Tikus,dll", "Belang Hitam Putih,Bintik Hitam Disisi Tubuh Hitam Corak Putih,Garis hitam di Punggung",
+	"Lebih Suka Memakan Jenis Serangga dan Tikus,Memiliki Warna Unik");
 }
